@@ -138,6 +138,14 @@
         .slide { flex-shrink: 0; width: 240px; height: 70px; display: flex; justify-content: center; align-items: center; padding: 0 25px; }
         .slide img { width: auto; height: auto; max-width: 170px; max-height: 60px; min-width: 140px; min-height: 45px; object-fit: contain; filter: grayscale(100%); opacity: 0.6; transition: all 0.3s ease; transform: scale(1.05); }
         .slide img:hover { filter: grayscale(0%); opacity: 1; transform: scale(1.1); }
+        /* 메인 바이어 Snow Peak 가시성 단독 보정 */
+        .slide img.snow-peak-logo {
+            transform: scale(1.55);
+            min-height: 58px;
+        }
+        .slide img.snow-peak-logo:hover {
+            transform: scale(1.68);
+        }
         @keyframes infiniteScroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
         /* 푸터 영역 */
@@ -394,7 +402,7 @@
     <div class="partners-section">
         <div class="logo-slider">
             <div class="logo-track">
-                <div class="slide"><img src="https://i.ibb.co/99Wg04LW/snow-peak.png" alt="Snow Peak"></div>
+                <div class="slide"><img src="https://i.ibb.co/99Wg04LW/snow-peak.png" alt="Snow Peak" class="snow-peak-logo"></div>
                 <div class="slide"><img src="https://i.ibb.co/ds96QbjY/gossamer-gear.png" alt="Gossamer Gear"></div>
                 <div class="slide"><img src="https://i.ibb.co/TMHGp4nH/Helinox.jpg" alt="Helinox"></div>
                 <div class="slide"><img src="https://i.ibb.co/Hfs0Qx65/terranova.png" alt="Terranova"></div>
@@ -403,7 +411,7 @@
                 <div class="slide"><img src="https://i.ibb.co/Z6ywL7c7/revolve-logotm-660x.webp" alt="Revolve"></div>
                 <div class="slide"><img src="https://i.ibb.co/bRRqt7PV/Tarptent.png" alt="Tarptent"></div>
                 
-                <div class="slide"><img src="https://i.ibb.co/99Wg04LW/snow-peak.png" alt="Snow Peak"></div>
+                <div class="slide"><img src="https://i.ibb.co/99Wg04LW/snow-peak.png" alt="Snow Peak" class="snow-peak-logo"></div>
                 <div class="slide"><img src="https://i.ibb.co/ds96QbjY/gossamer-gear.png" alt="Gossamer Gear"></div>
                 <div class="slide"><img src="https://i.ibb.co/TMHGp4nH/Helinox.jpg" alt="Helinox"></div>
                 <div class="slide"><img src="https://i.ibb.co/Hfs0Qx65/terranova.png" alt="Terranova"></div>
